@@ -3,7 +3,7 @@ const port = 3000
 
 const requestHandler = (request, response) => {  
   console.log(request.url)
-  response.end(`App running in ${process.env.NODE_ENV} mode, yay!`)
+  response.end(`App running in ${process.env.NODE_ENV} mode!!`)
 }
 
 const server = http.createServer(requestHandler)
